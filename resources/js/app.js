@@ -3,7 +3,10 @@ require('./bootstrap');
 
 window.Vue = require('vue');
 
-
+// Vue scroll
+import Vue from 'vue'
+import VueChatScroll from 'vue-chat-scroll'
+Vue.use(VueChatScroll)
 
 Vue.component('message', require('./components/Message.vue'));
 
